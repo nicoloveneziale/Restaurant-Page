@@ -8,11 +8,14 @@ body{
     margin: 0;
     background-color: #fea49f;
     color: white;
+    z-index: 0;
+    overflow-x: hidden;
 }
 
 header{
     background-color: #101357;
-    height: 10vh;
+    height: 15vh;
+    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: end;
@@ -26,7 +29,7 @@ header h1{
 }
 
 nav{
-    margin-right: 11vw;
+    margin-right: 8vw;
 }
 
 nav button{
@@ -50,3 +53,60 @@ nav button:after{
 nav button:hover:after{
     width: 100%;
 }
+
+#welcome-banner{
+    display: flex;
+    width: 80vw;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    margin-left: 8vw;
+    margin-top: -20vh;
+    padding-bottom: 5vh;
+    background-color: #fbaf08;
+    position: absolute;
+    padding: 2vh;
+}
+
+#welcome-banner h1{
+    font-weight: 200;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-bottom: #101357 solid 3px;
+    font-style: italic;
+    font-size: 36px;
+}
+
+#food-banner{
+    height: 60vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#food-banner img{
+    margin-top: 20vh;
+    width: 3000px;
+}
+
+#about-container{
+    background-color: #101357;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    margin-left: 18vw;
+    margin-top: 8vh;
+    padding: 2vw;
+}
+
+#about-container h1{
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    border-bottom: #fbaf08 6px double;
+}
+
+#about-container p{
+    line-height: 4vh;
+}
+

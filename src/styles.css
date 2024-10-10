@@ -61,7 +61,7 @@ nav button:hover:after{
     align-items: start;
     justify-content: center;
     margin-left: 8vw;
-    margin-top: -20vh;
+    margin-top: -15vh;
     padding-bottom: 5vh;
     background-color: #fbaf08;
     position: absolute;
@@ -77,16 +77,16 @@ nav button:hover:after{
 }
 
 #food-banner{
-    height: 60vh;
+    height: 40vh;
     overflow: hidden;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10vh;
 }
 
 #food-banner img{
-    margin-top: 20vh;
-    width: 3000px;
+    width: 100vw;
 }
 
 #about-container{
@@ -95,7 +95,7 @@ nav button:hover:after{
     display: flex;
     flex-direction: column;
     margin-left: 18vw;
-    margin-top: 8vh;
+    margin-top: 20vh;
     padding: 2vw;
 }
 
@@ -107,6 +107,24 @@ nav button:hover:after{
 }
 
 #about-container p{
-    line-height: 4vh;
+    line-height: 4.5vh;
+    font-size: 4vh;
 }
+
+#appetisers-container{
+    background-color: #101357;
+    width: 60vw;
+    padding: 4vw;
+    margin: 5vh 0 5vh 16vw;
+}
+
+#appetisers-container h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 200;
+    font-size: 46px;
+    border-bottom: #fbaf08 3px solid;
+    padding: 1vh;
+}
+
+
 

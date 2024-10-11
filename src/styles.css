@@ -111,14 +111,14 @@ nav button:hover:after{
     font-size: 4vh;
 }
 
-#appetisers-container{
+.menu-container{
     background-color: #101357;
     width: 60vw;
     padding: 4vw;
     margin: 5vh 0 5vh 16vw;
 }
 
-#appetisers-container h1{
+.menu-container h1{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 200;
     font-size: 46px;

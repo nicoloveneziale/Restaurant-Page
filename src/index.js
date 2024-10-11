@@ -4,6 +4,8 @@ import menuDiv from "./menu.js";
 
 const content = document.querySelector("#content");
 
+content.appendChild(homeDiv);
+
 document.querySelector("#home").addEventListener("click", () => {
     content.innerHTML = "";
     content.appendChild(homeDiv);

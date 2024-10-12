@@ -1,12 +1,12 @@
 *{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 body{
     padding: 0;
     margin: 0;
-    background-color: #fea49f;
+    background-color: #9bb3e7;
     color: white;
     z-index: 0;
     overflow-x: hidden;
@@ -22,7 +22,7 @@ header{
 }
 
 header h1{
-    font-size: 34px;
+    font-size: 50px;
     font-weight: 200;
     margin: 0 5vh 1vh 3vh;
     border-bottom: 2px solid #fbaf08;
@@ -36,7 +36,7 @@ nav button{
     background: none;
     color: white;
     border: none;
-    font-size: 24px;
+    font-size: 30px;
     margin: 0 1vw 1vh 1vw;
     cursor: pointer;
 }
@@ -63,7 +63,7 @@ nav button:hover:after{
     margin-left: 8vw;
     margin-top: -15vh;
     padding-bottom: 5vh;
-    background-color: #fbaf08;
+    background-color: #101357;
     position: absolute;
     padding: 2vh;
 }
@@ -71,7 +71,7 @@ nav button:hover:after{
 #welcome-banner h1{
     font-weight: 200;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    border-bottom: #101357 solid 3px;
+    border-bottom: #fbaf08 solid 3px;
     font-style: italic;
     font-size: 36px;
 }
@@ -116,6 +116,8 @@ nav button:hover:after{
     width: 60vw;
     padding: 4vw;
     margin: 5vh 0 5vh 16vw;
+    border-left: #fbaf08 7px double;
+    border-right: #fbaf08 7px double;
 }
 
 .menu-container h1{
@@ -125,6 +127,5 @@ nav button:hover:after{
     border-bottom: #fbaf08 3px solid;
     padding: 1vh;
 }
-
 
 

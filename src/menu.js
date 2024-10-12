@@ -75,9 +75,15 @@ const tiramisu = document.createElement("h2");
 tiramisu.innerHTML = "Tiramisu";
 
 const tiramisuDes = document.createElement("p");
-tiramisu.innerHTML = "Beautiful layered creamy cake, topped with chocolate, biscuit doused in coffee";
+tiramisuDes.innerHTML = "Beautiful layered creamy cake, topped with chocolate, biscuit doused in coffee";
 
-desertsDiv.append(desertsHeader, createFoodContainer(tiramisu, tiramisuDes));
+const gelato = document.createElement("h2");
+gelato.innerHTML = "Gelato";
+
+const gelatoDes = document.createElement("p");
+gelatoDes.innerHTML = "Creamy, beautiful homemade gelato, made with love";
+
+desertsDiv.append(desertsHeader, createFoodContainer(tiramisu, tiramisuDes), createFoodContainer(gelato, gelatoDes));
 
 menuDiv.append(appetisersDiv, mainsDiv, desertsDiv);
 

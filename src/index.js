@@ -1,6 +1,7 @@
 import "./styles.css";
 import homeDiv from "./home.js";
 import menuDiv from "./menu.js";
+import aboutDiv from "./about.js";
 
 const content = document.querySelector("#content");
 
@@ -18,5 +19,5 @@ document.querySelector("#menu").addEventListener("click", () => {
 
 document.querySelector("#about").addEventListener("click", () => {
     content.innerHTML = "";
-    content.appendChild();
+    content.appendChild(aboutDiv);
 });

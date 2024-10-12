@@ -128,4 +128,30 @@ nav button:hover:after{
     padding: 1vh;
 }
 
+#information-container{
+    background-color: #101357;
+    width: 70vw;
+    margin-top: 10vh;
+    margin-left: 13vw;
+    padding: 2vw;
+}
+
+#information-container h2{
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 48px;
+    border-bottom: #fbaf08 6px double;
+    width: fit-content;
+    margin-left: 4vw;
+}
+
+#information-container label{
+    border-bottom: #fbaf08 3px solid;
+}
+
+#information-container p{
+    font-weight: 900;
+    font-size: 36px;
+    margin-left: 3vw;
+}
 
